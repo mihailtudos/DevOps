@@ -24,7 +24,7 @@ fi
 
 
 # Updating the package index files
-sudo apt-get update
+sudo apt-get -y update
 
 
 # Check if gpg is installed
@@ -54,7 +54,7 @@ echo "deb [ arch=amd64,arm64 signed-by=/usr/share/keyrings/mongodb-server-7.0.gp
 
 
 # Reload local package database
-sudo apt-get update
+sudo apt-get -y update
 
 
 # Install the MongoDB Enterprise packages
