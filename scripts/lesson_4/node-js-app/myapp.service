@@ -1,0 +1,6 @@
+# This is a basic service setup for the servcer, it needs to go into /etc/systemd/system
+# To start the service run sudo systemctl start myapp.service 
+[Service]
+Environment=MYAPP_PORT=3000
+ExecStart=/home/nordwest/.nvm/versions/node/v21.2.0/bin/node /usr/local/www/myapp/app.js
+Restart=always
