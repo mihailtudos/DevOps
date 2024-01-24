@@ -1,0 +1,233 @@
+commit d19f56af2b510dfca083a8faf41bf0216aa6b94b
+Author: Mihail Tudos <mihailtudos@outlook.com>
+Date:   Wed Jan 24 09:56:47 2024 +0200
+
+    added wild_animals directory
+
+the content of the index file
+100644 e69de29bb2d1d6434b8b29ae775ad8c2e48c5391 0	git-logs.txt
+100644 eba725d14ab5b0d42cfb3e1ee2ee2e342f545ea3 0	wild_animals/index.html
+100644 ce4b62e40390837fbe5a59d2c3012b2d48083344 0	wild_animals/pictures/elephant.jpg
+100644 e9e8bb8d58d7449048dff405d8124e45dacf6e68 0	wild_animals/pictures/giraffe.jpg
+100644 9fef2e52dc23c9ade52eb015f14664d3391cf0af 0	wild_animals/pictures/paw_print.jpg
+
+the hash of the commit:
+d19f56af2b510dfca083a8faf41bf0216aa6b94b
+
+
+the logs after the second commit:
+commit b973d4a18297505458fcbe64c3076ae4bf1ad29f
+Author: Mihail Tudos <mihailtudos@outlook.com>
+Date:   Wed Jan 24 10:17:53 2024 +0200
+
+    fixed typo in index.html and appended git logs
+
+commit d19f56af2b510dfca083a8faf41bf0216aa6b94b
+Author: Mihail Tudos <mihailtudos@outlook.com>
+Date:   Wed Jan 24 09:56:47 2024 +0200
+
+    added wild_animals directory
+
+the hash of the second commit
+b973d4a18297505458fcbe64c3076ae4bf1ad29f
+Exercice 2
+
+Repo graph
+* 86edb1c L-05: Update Docs. Add user agreement info
+* 438b89a L-05: Add user agreement
+* 6adb962 L-03: Docs added
+| * 3049431 L-04: Add rectangle.py
+| | * b5b0fae L-04: Update docs for calculate.py
+| | * d76db2a L-04: Add calculate.py
+| | * 51c40eb L-04: Doc updated for triangle
+| | * d080c78 L-04: Triangle added
+| |/  
+| * d078c8d L-03: Docs added
+|/  
+* 8ba9aeb L-03: Circle and square added
+
+fixed branch feature by reverting last commit
+
+commit 8d045c4f19749f02733491c602bd4336ce3195a0
+Author: Mihail Tudos <mihailtudos@outlook.com>
+Date:   Wed Jan 24 10:56:31 2024 +0200
+
+    Revert "L-04: Add rectangle.py"
+    
+    This reverts commit 30494317cde4419be779c14306561e0eaa78b88b.
+
+commit 30494317cde4419be779c14306561e0eaa78b88b
+Author: Daniil.K <dlkay@yandex.ru>
+Date:   Tue Mar 30 17:36:09 2021 +0300
+
+    L-04: Add rectangle.py
+
+commit d078c8d9ee6155f3cb0e577d28d337b791de28e2
+Author: smartiqa <info@smartiqa.ru>
+Date:   Thu Mar 4 14:55:29 2021 +0300
+
+    L-03: Docs added
+
+commit 8ba9aeb3cea847b63a91ac378a2a6db758682460
+Author: smartiqa <info@smartiqa.ru>
+Date:   Thu Mar 4 14:54:08 2021 +0300
+
+    L-03: Circle and square added
+
+
+
+
+
+squished last two commit in the develop branch
+
+
+commit 8638d8b4aedb765bc8dffca30c0751f75e1dc1e6
+Author: Daniil.K <dlkay@yandex.ru>
+Date:   Tue Mar 30 17:57:42 2021 +0300
+
+    Merged last two commits
+    
+    L-04: Add calculate.py
+    
+    L-04: Update docs for calculate.py
+
+commit 51c40ebfd0e0b65f52fe5e54740cbb038e492db3
+Author: smartiqa <info@smartiqa.ru>
+Date:   Fri Mar 26 14:52:26 2021 +0300
+
+    L-04: Doc updated for triangle
+
+commit d080c7888b81955bad2ed78d58ad910526b5132a
+Author: smartiqa <info@smartiqa.ru>
+Date:   Fri Mar 26 14:48:39 2021 +0300
+
+    L-04: Triangle added
+
+commit d078c8d9ee6155f3cb0e577d28d337b791de28e2
+Author: smartiqa <info@smartiqa.ru>
+Date:   Thu Mar 4 14:55:29 2021 +0300
+
+    L-03: Docs added
+
+commit 8ba9aeb3cea847b63a91ac378a2a6db758682460
+Author: smartiqa <info@smartiqa.ru>
+Date:   Thu Mar 4 14:54:08 2021 +0300
+
+    L-03: Circle and square added
+
+
+task 4.2 log
+
+commit dd2e8e0087d81e18dd9e2d70a4c3e08a7f88a450
+Author: Mihail Tudos <mihailtudos@outlook.com>
+Date:   Wed Jan 24 11:29:41 2024 +0200
+
+    Copy README.md from develop to experiment
+
+commit 58287c0e6434f9c4181fd2ef9b59b4c32fe4772b
+Author: Mihail Tudos <mihailtudos@outlook.com>
+Date:   Wed Jan 24 11:07:30 2024 +0200
+
+    removed git logs file
+
+commit e583964724fc0213d46ef9fc514a860a39298486
+Author: Mihail Tudos <mihailtudos@outlook.com>
+Date:   Wed Jan 24 11:01:55 2024 +0200
+
+    push changes
+
+commit d078c8d9ee6155f3cb0e577d28d337b791de28e2
+Author: smartiqa <info@smartiqa.ru>
+Date:   Thu Mar 4 14:55:29 2021 +0300
+
+    L-03: Docs added
+
+commit 8ba9aeb3cea847b63a91ac378a2a6db758682460
+Author: smartiqa <info@smartiqa.ru>
+Date:   Thu Mar 4 14:54:08 2021 +0300
+
+    L-03: Circle and square added
+
+
+task 4.3 and 4.4 log
+
+commit b8a864d80ccf26d8b8525095143716562d3f7df9
+Author: Mihail Tudos <mihailtudos@outlook.com>
+Date:   Wed Jan 24 11:33:43 2024 +0200
+
+    copied the calculate.py to the experiment branch from the develop branch
+
+commit dd2e8e0087d81e18dd9e2d70a4c3e08a7f88a450
+Author: Mihail Tudos <mihailtudos@outlook.com>
+Date:   Wed Jan 24 11:29:41 2024 +0200
+
+    Copy README.md from develop to experiment
+
+commit 58287c0e6434f9c4181fd2ef9b59b4c32fe4772b
+Author: Mihail Tudos <mihailtudos@outlook.com>
+Date:   Wed Jan 24 11:07:30 2024 +0200
+
+    removed git logs file
+
+commit e583964724fc0213d46ef9fc514a860a39298486
+Author: Mihail Tudos <mihailtudos@outlook.com>
+Date:   Wed Jan 24 11:01:55 2024 +0200
+
+    push changes
+
+commit d078c8d9ee6155f3cb0e577d28d337b791de28e2
+Author: smartiqa <info@smartiqa.ru>
+Date:   Thu Mar 4 14:55:29 2021 +0300
+
+    L-03: Docs added
+
+commit 8ba9aeb3cea847b63a91ac378a2a6db758682460
+Author: smartiqa <info@smartiqa.ru>
+Date:   Thu Mar 4 14:54:08 2021 +0300
+
+    L-03: Circle and square added
+
+
+task 4.5 log
+
+commit c9b3b8594ab2d7fdc952cfe51a374b459f61a67f
+Author: Mihail Tudos <mihailtudos@outlook.com>
+Date:   Wed Jan 24 11:35:12 2024 +0200
+
+    removed circle.py and square.py files
+
+commit b8a864d80ccf26d8b8525095143716562d3f7df9
+Author: Mihail Tudos <mihailtudos@outlook.com>
+Date:   Wed Jan 24 11:33:43 2024 +0200
+
+    copied the calculate.py to the experiment branch from the develop branch
+
+commit dd2e8e0087d81e18dd9e2d70a4c3e08a7f88a450
+Author: Mihail Tudos <mihailtudos@outlook.com>
+Date:   Wed Jan 24 11:29:41 2024 +0200
+
+    Copy README.md from develop to experiment
+
+commit 58287c0e6434f9c4181fd2ef9b59b4c32fe4772b
+Author: Mihail Tudos <mihailtudos@outlook.com>
+Date:   Wed Jan 24 11:07:30 2024 +0200
+
+    removed git logs file
+
+commit e583964724fc0213d46ef9fc514a860a39298486
+Author: Mihail Tudos <mihailtudos@outlook.com>
+Date:   Wed Jan 24 11:01:55 2024 +0200
+
+    push changes
+
+commit d078c8d9ee6155f3cb0e577d28d337b791de28e2
+Author: smartiqa <info@smartiqa.ru>
+Date:   Thu Mar 4 14:55:29 2021 +0300
+
+    L-03: Docs added
+
+commit 8ba9aeb3cea847b63a91ac378a2a6db758682460
+Author: smartiqa <info@smartiqa.ru>
+Date:   Thu Mar 4 14:54:08 2021 +0300
+
+    L-03: Circle and square added
